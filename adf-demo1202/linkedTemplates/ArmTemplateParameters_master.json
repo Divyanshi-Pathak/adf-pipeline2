@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-demo1202"
+		},
+		"AdvWorksDb_password": {
+			"value": ""
+		},
+		"AdvWorksDb1_password": {
+			"value": ""
+		},
+		"AdvWorksDb_properties_typeProperties_server": {
+			"value": "divyanshi.database.windows.net"
+		},
+		"AdvWorksDb_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb_properties_typeProperties_userName": {
+			"value": "Divyanshi"
+		},
+		"AdvWorksDb1_properties_typeProperties_server": {
+			"value": "divyanshi.database.windows.net"
+		},
+		"AdvWorksDb1_properties_typeProperties_database": {
+			"value": "workspace"
+		},
+		"AdvWorksDb1_properties_typeProperties_userName": {
+			"value": "Divyanshi"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
