@@ -12,6 +12,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"WaitSecond": {
+				"type": "int",
+				"defaultValue": 2
+			}
+		},
 		"annotations": [],
 		"lastPublishTime": "2025-05-01T04:09:05Z"
 	},
