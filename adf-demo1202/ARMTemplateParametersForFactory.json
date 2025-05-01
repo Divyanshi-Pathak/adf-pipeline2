@@ -11,8 +11,11 @@
 		"AdvWorksDb1_password": {
 			"value": ""
 		},
+		"ProductBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"AdvWorksDb_properties_typeProperties_server": {
-			"value": "divyanshi.database.windows.net"
+			"value": "divyanshi12.database.windows.net"
 		},
 		"AdvWorksDb_properties_typeProperties_database": {
 			"value": "workspace"
