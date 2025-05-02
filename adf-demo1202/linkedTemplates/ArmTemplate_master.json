@@ -35,6 +35,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'TripAggregateBlob'"
 		},
+		"FlipkartSourceBlobSource_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'FlipkartSourceBlobSource'"
+		},
+		"FlipkartBlobSink_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'FlipkartBlobSink'"
+		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://2sademo1202.dfs.core.windows.net/"
@@ -126,6 +134,12 @@
 					},
 					"TripAggregateBlob_connectionString": {
 						"value": "[parameters('TripAggregateBlob_connectionString')]"
+					},
+					"FlipkartSourceBlobSource_connectionString": {
+						"value": "[parameters('FlipkartSourceBlobSource_connectionString')]"
+					},
+					"FlipkartBlobSink_connectionString": {
+						"value": "[parameters('FlipkartBlobSink_connectionString')]"
 					},
 					"ADLSGen2_properties_typeProperties_url": {
 						"value": "[parameters('ADLSGen2_properties_typeProperties_url')]"

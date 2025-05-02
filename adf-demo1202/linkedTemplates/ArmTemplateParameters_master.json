@@ -26,6 +26,12 @@
 		"TripAggregateBlob_connectionString": {
 			"value": ""
 		},
+		"FlipkartSourceBlobSource_connectionString": {
+			"value": ""
+		},
+		"FlipkartBlobSink_connectionString": {
+			"value": ""
+		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"value": "https://2sademo1202.dfs.core.windows.net/"
 		},
