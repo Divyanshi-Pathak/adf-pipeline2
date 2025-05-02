@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adf-demo1202"
 		},
+		"ADLSGen2_accountKey": {
+			"value": ""
+		},
+		"ADLSTripData_accountKey": {
+			"value": ""
+		},
 		"AdvWorksDb_password": {
 			"value": ""
 		},
@@ -13,6 +19,15 @@
 		},
 		"ProductBlobStorage1_connectionString": {
 			"value": ""
+		},
+		"TaxiTripDb_password": {
+			"value": ""
+		},
+		"ADLSGen2_properties_typeProperties_url": {
+			"value": "https://2sademo1202.dfs.core.windows.net/"
+		},
+		"ADLSTripData_properties_typeProperties_url": {
+			"value": "https://2sademo1202.dfs.core.windows.net/"
 		},
 		"AdvWorksDb_properties_typeProperties_server": {
 			"value": "divyanshi12.database.windows.net"
@@ -30,6 +45,15 @@
 			"value": "workspace"
 		},
 		"AdvWorksDb1_properties_typeProperties_userName": {
+			"value": "Divyanshi"
+		},
+		"TaxiTripDb_properties_typeProperties_server": {
+			"value": "divyanshi12.database.windows.net"
+		},
+		"TaxiTripDb_properties_typeProperties_database": {
+			"value": "taxi-data"
+		},
+		"TaxiTripDb_properties_typeProperties_userName": {
 			"value": "Divyanshi"
 		}
 	}
