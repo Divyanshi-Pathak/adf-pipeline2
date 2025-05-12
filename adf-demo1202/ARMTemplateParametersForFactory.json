@@ -17,6 +17,12 @@
 		"AdvWorksDb1_password": {
 			"value": ""
 		},
+		"FlipkartBlobSink_connectionString": {
+			"value": ""
+		},
+		"FlipkartSourceBlobSource_connectionString": {
+			"value": ""
+		},
 		"ProductBlobStorage1_connectionString": {
 			"value": ""
 		},
@@ -26,10 +32,7 @@
 		"TripAggregateBlob_connectionString": {
 			"value": ""
 		},
-		"FlipkartSourceBlobSource_connectionString": {
-			"value": ""
-		},
-		"FlipkartBlobSink_connectionString": {
+		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
 		"ADLSGen2_properties_typeProperties_url": {

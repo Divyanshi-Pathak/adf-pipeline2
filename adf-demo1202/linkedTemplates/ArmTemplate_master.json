@@ -23,6 +23,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AdvWorksDb1'"
 		},
+		"FlipkartBlobSink_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'FlipkartBlobSink'"
+		},
+		"FlipkartSourceBlobSource_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'FlipkartSourceBlobSource'"
+		},
 		"ProductBlobStorage1_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ProductBlobStorage1'"
@@ -35,13 +43,9 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'TripAggregateBlob'"
 		},
-		"FlipkartSourceBlobSource_connectionString": {
+		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'FlipkartSourceBlobSource'"
-		},
-		"FlipkartBlobSink_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'FlipkartBlobSink'"
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
 		},
 		"ADLSGen2_properties_typeProperties_url": {
 			"type": "string",
@@ -126,6 +130,12 @@
 					"AdvWorksDb1_password": {
 						"value": "[parameters('AdvWorksDb1_password')]"
 					},
+					"FlipkartBlobSink_connectionString": {
+						"value": "[parameters('FlipkartBlobSink_connectionString')]"
+					},
+					"FlipkartSourceBlobSource_connectionString": {
+						"value": "[parameters('FlipkartSourceBlobSource_connectionString')]"
+					},
 					"ProductBlobStorage1_connectionString": {
 						"value": "[parameters('ProductBlobStorage1_connectionString')]"
 					},
@@ -135,11 +145,8 @@
 					"TripAggregateBlob_connectionString": {
 						"value": "[parameters('TripAggregateBlob_connectionString')]"
 					},
-					"FlipkartSourceBlobSource_connectionString": {
-						"value": "[parameters('FlipkartSourceBlobSource_connectionString')]"
-					},
-					"FlipkartBlobSink_connectionString": {
-						"value": "[parameters('FlipkartBlobSink_connectionString')]"
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"ADLSGen2_properties_typeProperties_url": {
 						"value": "[parameters('ADLSGen2_properties_typeProperties_url')]"
